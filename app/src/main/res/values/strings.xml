@@ -3,5 +3,12 @@
     <string name="add_task">Add Task</string>
     <string name="task_status">Task status</string>
     <string name="sample_task">Sample Task</string>
+    <string-array name="importance_options">
+        <item>Нет</item>
+        <item>Низкий</item>
+        <item>!!Высокий</item>
+    </string-array>
+
+
 </resources>
 

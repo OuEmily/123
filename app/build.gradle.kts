@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("kotlin-parcelize")
 }
 
 android {
@@ -43,6 +44,7 @@ android {
 
 }
 
+
 dependencies {
 
     implementation(libs.androidx.core.ktx)
@@ -62,6 +64,12 @@ dependencies {
     implementation ("com.google.android.material:material:1.9.0")
     implementation ("androidx.recyclerview:recyclerview:1.3.0")
     implementation ("com.google.android.material:material:1.10.0")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.2")
+    implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2")
+    implementation ("androidx.fragment:fragment-ktx:1.5.6")
+    implementation ("androidx.navigation:navigation-fragment-ktx:2.5.3") // или последняя версия
+    implementation ("androidx.navigation:navigation-ui-ktx:2.5.3")
+
 
 
 
